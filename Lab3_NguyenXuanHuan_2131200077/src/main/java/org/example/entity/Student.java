@@ -41,7 +41,7 @@ public class Student {
         Male, Female, Other
     }
 
-    // Constructor dùng để tạo Student nhanh trong main
+
     public Student(String fullName, Gender gender, LocalDate dob, double gpa, int enrollmentYear, School school, Major major) {
         this.fullName = fullName;
         this.gender = gender;

@@ -15,7 +15,6 @@ public class School {
 
     @Column(nullable = false, length = 100)
     private String schoolName;
-
     private String location;
 
     @OneToMany(mappedBy = "school", cascade = CascadeType.ALL, orphanRemoval = true)
